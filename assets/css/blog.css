@@ -1,0 +1,38 @@
+
+/* Header styling */
+.header {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Main content styling */
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .leftcolumn {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  .rightcolumn {
+    width: 25%;
+    padding: 20px;
+  }
+  
+  /* Card styling for blog posts */
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styling */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  *h1 {border: black;}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="My-Web-Blog/assets/css/style.css">
+    <title>Personal Blog</title>
+</head>
+<body>
+    <header class="header">
+        <h1>my blog</h1>
+        <p>{DATE_HERE}</p>
+    </header>
+
+    <main>
+        <form id="blogForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="blogTitle">Blog Title:</label>
+            <input type="text" id="blogTitle" name="blogTitle" required>
+
+            <label for="blogContent">Blog Content:</label>
+            <textarea id="blogContent" name="blogContent" rows="5" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer class="footer">
+        <a href="https://your-portfolio-link.com">Visit My Portfolio</a>
+    </footer>
+</body>
+</html>
