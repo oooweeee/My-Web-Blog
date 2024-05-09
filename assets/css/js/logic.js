@@ -1,13 +1,13 @@
 // logic.js
 
-// Example: Toggle dark mode
-document.querySelector('.toggle-button').addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-  });
+//THIS IS HOW I WILL TOGGLE MY DARK MODE
+// document.querySelector('.toggle-button').addEventListener('click', () => {
+//     document.body.classList.toggle('dark-mode');
+//   });
   
-  // 
-  document.querySelector('.back-button').addEventListener('click', () => {
-    window.location.href = '/index.html';
-     // Redirect to the landing page
-  });
+//   // 
+//   document.querySelector('.back-button').addEventListener('click', () => {
+//     window.location.href = '/index.html';
+//      // 
+//   });
   

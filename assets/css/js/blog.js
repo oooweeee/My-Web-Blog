@@ -2,14 +2,15 @@
 console.log('word')
 // Fetch blog posts localStorage
 function fetchBlogPosts() {
-    // Implement your logic here
-    // Return an array of blog post objects
+   let local=localStorage.getItem()
   }
   
-  // Example: Display blog posts dynamically
+  // 
   function displayBlogPosts(posts) {
     const blogContainer = document.getElementById('blog-container');
+
     blogContainer.innerHTML = '';
+
     posts.forEach((post) => {
       const postElement = document.createElement('div');
       postElement.classList.add('card');
@@ -22,6 +23,6 @@ function fetchBlogPosts() {
     });
   }
   
-  // Example usage:
-  const blogPosts = fetchBlogPosts();
-  displayBlogPosts(blogPosts);
+  // //
+  // const blogPosts = fetchBlogPosts();
+  // displayBlogPosts(blogPosts);

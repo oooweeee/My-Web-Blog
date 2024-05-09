@@ -2,11 +2,11 @@
 /* Header styling */
 .header {
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #1cddff;
     text-align: center;
   }
   
-  /* Main content styling */
+  /*  */
   .row {
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@
   
   /* Card styling for blog posts */
   .card {
-    background-color: #ffffff;
+    background-color: #09aefa;
     padding: 20px;
     margin-bottom: 20px;
   }
@@ -33,6 +33,6 @@
   .footer {
     text-align: center;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #77f707;
   }
   *h1 {border: black;}

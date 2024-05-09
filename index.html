@@ -11,13 +11,13 @@
 </head>
 <body>
     <header class="header">
-       <!-- THIS IS MY HEADER THE FIRST HTING THAT WILL APPEAR VISUALLY ON THE PAGE -->
+       <!-- THIS IS MY HEADER THE FIRST THING THAT WILL APPEAR VISUALLY ON THE PAGE -->
         <h1>MY WEB BLOG</h1>
         <p>{DATE_HERE}</p>
     </header>
 
     <main>
-        <form id="blogForm">
+        <form id="blogForm" onsubmit="saveBlog()">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
 
@@ -34,6 +34,8 @@
     <footer class="footer">
         <a href="https://your-portfolio-link.com">Visit My Portfolio</a>
     </footer>
-    <script src = './assets/css/js/blog.js'></script>
+   <!-- THIS IS HOW I CONNECT MY Java script -->
+    <script src = './assets/css/js/logic.js'></script>
+    <script src = './assets/css/js/form.js'></script>
 </body>
 </html>

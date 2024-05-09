@@ -1,27 +1,26 @@
-document.getElementById('blogForm').addEventListener('submit', async (e) => {
-    e.preventDefault();
-  
-    const username = document.getElementById('username').value;
+function saveBlog(e){
+e.preventDefault();
+    // THIS IS GETTING THE ARRAY AND PARSING IT 
+console.log("anything")
+    // ("blogs") is a key 
+  let blogs=localStorage.getItem("blogs")
+  // THIS IS INSURING THAT THERE IS NO EMPTY VALUE
+  let parseBlogs=JSON.parse(blogs)||[]
+ 
+  // GRABING THE USERS INPUTS
+  const username = document.getElementById('username').value;
     const blogTitle = document.getElementById('blogTitle').value;
     const blogContent = document.getElementById('blogContent').value;
   
-    // Validate input (e.g., check if fields are not empty)
-  
-    // Example: Send data to the server (you can use fetch or other methods)
-    try {
-      const response = await fetch('/api/createBlogPost', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username, blogTitle, blogContent }),
-      });
-  
-      if (response.ok) {
-        // Redirect to the posts page
-        window.location.href = '/blog.html';
-      } else {
-        console.error('Error creating blog post');
-      }
-    } catch (error) {
-      console.error('Network error:', error);
-    }
-  });
+    // THIS WILL REFORMAT IT INTO THE WAY THE BLOG IS SET UP
+     const blogPost = {
+      username,
+      blogTitle,
+      blogContent
+     }
+    //  THIS WILL PUSH blogPost INTO parseBlog or this will take the new information and add it to old info
+  parseBlogs.push(blogPost)
+    
+  // this is parsing the information backe into the aray val word this is taking the new information and putting it where it belongs or // from an array to a string from a string to local storage
+  localStorage.setItem("blogs",JSON.stringify(parseBlogs))   
+  };
