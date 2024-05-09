@@ -1,6 +1,6 @@
 // blog.js
 console.log('word')
-// Fetch blog posts from an API or localStorage
+// Fetch blog posts localStorage
 function fetchBlogPosts() {
     // Implement your logic here
     // Return an array of blog post objects
