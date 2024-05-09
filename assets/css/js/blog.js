@@ -1,6 +1,6 @@
 // blog.js
-
-// Example: Fetch blog posts from an API or localStorage
+console.log('word')
+// Fetch blog posts from an API or localStorage
 function fetchBlogPosts() {
     // Implement your logic here
     // Return an array of blog post objects
@@ -9,8 +9,7 @@ function fetchBlogPosts() {
   // Example: Display blog posts dynamically
   function displayBlogPosts(posts) {
     const blogContainer = document.getElementById('blog-container');
-    blogContainer.innerHTML = ''; // Clear existing content
-  
+    blogContainer.innerHTML = '';
     posts.forEach((post) => {
       const postElement = document.createElement('div');
       postElement.classList.add('card');
