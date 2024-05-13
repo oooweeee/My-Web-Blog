@@ -7,7 +7,7 @@ function saveBlog(e) {
   e.preventDefault();
   // THIS IS PREVENTING THE PAGE FROM REFRESHING 
   // THIS IS GETTING THE ARRAY AND PARSING IT
-  console.log("anything");
+  console.log("");
   // ("blogs") is a key
   let blogs = localStorage.getItem("blogs");
   // THIS IS INSURING THAT THERE IS NO EMPTY VALUE

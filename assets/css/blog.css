@@ -4,13 +4,9 @@
     padding: 20px;
     background-color: #1cddff;
     text-align: center;
-    
-
-    
 
   }
   
-  /*  */
   .row {
     display: flex;
     justify-content: space-between;

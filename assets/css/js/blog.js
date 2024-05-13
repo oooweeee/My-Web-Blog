@@ -23,6 +23,5 @@ function fetchBlogPosts() {
     });
   }
   
-  // //
-  // const blogPosts = fetchBlogPosts();
-  // displayBlogPosts(blogPosts);
+   const blogPosts = fetchBlogPosts();
+  displayBlogPosts(blogPosts);
