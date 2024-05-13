@@ -27,6 +27,9 @@
     background-color: #09aefa;
     padding: 20px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
   }
   
   /* Footer styling */
